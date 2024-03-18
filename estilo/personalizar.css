@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --corprimaria: #1A120B;
+    --corsecundaria: #3C2A21;
+    --corterciaria: #D5CEA3;
+    --corquartenaria: #E5E5CB;
+}
+
+
+body{
+    background-color: var(--corquartenaria);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+
+.cabecalho h1{
+    color: var(--corprimaria);
+}
+
+
+.cabecalho img{
+    max-width: 400px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    border-radius: 33%;
+}
+
+
+.container_input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+
+.container_input .input{
+    width: 400px;
+    height: 330px;
+}
+
+
+#input-texto{
+    width: 300px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--corprimaria);
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--corsecundaria);
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--corsecundaria);
+}
+
+
+#output span{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+#output img{
+    max-width: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+}
+
+.container_btn button{
+    border: 2px solid var(--corprimaria);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--corterciaria);
+    color: var(--corprimaria);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+
+.btn_criptografar:hover{
+    background-color: var(--corsecundaria);
+    color: var(--corquartenaria);
+    transition: 0.3s all;
+}
+
+.btn_descriptografar:hover{
+    background-color: var(--corsecundaria);
+    color: var(--corquartenaria);
+    transition: 0.3s all;
+}
+
+.btn-copiar{
+    border: 2px solid var(--corprimaria);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--corterciaria);
+    color: var(--corprimaria);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+.btn-copiar:hover{
+    border: 2px solid var(--corsecundaria);
+    background-color: var(--corsecundaria);
+    color: var(--corquartenaria);
+    transition: 0.3s all;
+}
+
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+    background: linear-gradient;
+    color: var(--corsecundaria);
+}
